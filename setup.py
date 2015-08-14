@@ -7,12 +7,12 @@ def read(fname):
 
 
 setup(
-    name='pytest-love',
+    name='pytest-hearts',
     license='MIT',
-    description='Green progress dots',
+    description='<3 in your pytest',
     long_description=read("README.md"),
     version='0.3',
-    py_modules=['pytest_love'],
-    entry_points={'pytest11': ['love = pytest_love']},
-    install_requires=['pytest>=2.0', 'blessings'],
+    py_modules=['pytest_hearts'],
+    entry_points={'pytest11': ['hearts = pytest_hearts']},
+    install_requires=['pytest>=2.0'],
 )

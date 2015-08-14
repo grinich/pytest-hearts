@@ -1,4 +1,4 @@
-def pytest_love(report):
+def pytest_report_teststatus(report):
     if report.when == 'call':
         if hasattr(report, 'wasxfail'):
             if report.skipped:
