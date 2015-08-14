@@ -1,4 +1,4 @@
-# Pytest love
+# Pytest hearts
 
 Dots are so passé. Add some love to your pytest results. #loveislove
 
@@ -17,8 +17,8 @@ tests/test_two.py 💚💚💚💚💚💚💚💔💚💔
 
 
 ```
-git clone https://github.com/grinich/pytest-love.git
-cd pytest-love
+git clone https://github.com/grinich/pytest-hearts.git
+cd pytest-hearts
 pip install -e .
 ```
 
